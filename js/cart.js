@@ -53,10 +53,10 @@ function showCart() {
   let par=document.createElement('p');
   tdElement.appendChild(par);
    par.textContent=cart[i];
-   
-  }
-  console.log(cart);
+   console.log(cart[i]);
 
+  }
+  
 
 
 }
